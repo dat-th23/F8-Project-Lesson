@@ -83,6 +83,27 @@ a {
   background: #171100;
 }
 
-/* .action .btn {
-  padding: 11px 41px;
-} */
+.hero .body {
+  display: flex;
+}
+
+.media-block {
+
+}
+
+.hero-summary{
+
+}
+
+.content-block {
+
+}
+
+.heading .lv1 {
+  color: #171100;
+  font-family: Sen;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.17; /* 117.241% */
+  letter-spacing: -1.16px;
+}
