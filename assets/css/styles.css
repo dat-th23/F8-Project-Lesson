@@ -100,7 +100,7 @@ a {
 /* Hero */
 .hero {
     background: #fffcf4;
-    padding: 64px;
+    padding: 64px 0 65px 0;
 }
 
 .hero .body {
@@ -113,6 +113,7 @@ a {
 }
 
 .media-block .img {
+    display: block;
     width: 470px;
     /* object-fit : dùng tránh cho hình ảnh và video bị méo khi hiển thị*/
     object-fit: cover;
