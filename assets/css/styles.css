@@ -394,7 +394,7 @@ a {
     /*height: 50px;*/
 }
 
-/*   feedback   */
+/*   Feedback   */
 .feedback {
     margin-top: 135px;
     padding: 96px 0px;
@@ -464,4 +464,26 @@ a {
     font-style: italic;
     font-weight: 400;
     line-height: 1.54; /* 153.846% */
+}
+
+/*  Features  */
+.features {
+    display: flex;
+    margin-top: 135px;
+    padding: 65px;
+}
+
+.features .body{
+    display: flex;
+}
+
+.features .body .images {
+    display: flex;
+}
+
+.features .body img {
+    width: 270px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
 }
